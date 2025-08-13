@@ -1,0 +1,12 @@
+#para1{
+    background-color: rgb(201, 198, 93);
+}
+#para5{
+    background-color: rgb(210, 212, 67);
+}
+.li{
+    display: flex;justify-content: space-evenly;
+}
+.spidey{
+    display: flex;justify-content: space-evenly;
+}
