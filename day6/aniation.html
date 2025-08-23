@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ball{
+            transform: scale(1); 
+        }
+        
+        img{
+            animation: ball 2s infinite;  
+        }
+
+        @keyframes ball {
+            0% {
+                transform: translateY(500px) rotate(180deg);
+            }
+            50% {
+                transform: translateY(500px) rotate(220deg);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="ball">
+        <img src="/pngwing.com.png" alt="loading">
+    </div>
+</body>
+</html>
