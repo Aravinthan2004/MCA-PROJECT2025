@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0%;
+        }
+
+        #container {
+
+            background-image: url('/avengers.jpg');
+            width: 100%;
+            height: 780px;
+            background-size: contain;
+            position: relative;
+            transition-duration: 1s;
+
+        }
+
+        .mini {
+            display: flex;
+            bottom: 70px;
+            right: 0%;
+            position: absolute;
+        }
+        .mini :hover{
+            transform: scale(1.2);
+            transition-duration: 0.5s;
+            
+        }
+
+        .mini img {
+            width: 130px;
+            height: 80px;
+        }
+
+        #arrow {
+            height: 100px;
+            width: 80px;
+
+        }
+        #arrow1 {
+            
+            width: 80px ;
+            margin-top: 400px;
+            margin-left: 100px;
+
+            transform: rotate(180deg);
+        }
+        #arrow2 {
+            
+            width: 80px;
+            margin-top: 400px;
+            margin-left: 1200px;
+        }
+        .image :hover {
+      transform: scale(1.1);
+      transition-duration: 0.5s;
+            
+
+        }
+
+    </style>
+</body>
+
+<body>
+     
+    <div id="container">
+        <div class="arrow">
+            <img id="arrow1"  src="pngtree_13651100.png" onclick="Changeimg(/loki)" >
+            <img id="arrow2" src="pngtree_13651100.png" onclick="Changeimg(/spiderman1.jpg)">
+
+        </div>
+        <div class="mini">
+            <img src="avengers.jpg">
+            <img src="/spiderman1.jpg">
+            <img src="/loki.webp">
+            <img src="/spiderman5.jpg">
+            <img src="/spiderman4.jpg">
+            <img src="/spiderman3.jpg">
+            <img src="/spiderman2.jpg">
+            <br>
+            <br>
+        </div>
+    </div>
+    <script src="/landing.js"></script>
+    <br>
+    <br>
+ <h1 style="font-style: inherit;">MOVIES ON WATCH</h1>   
+ <br>
+ <div class="image">
+    <img src="spiderman1.jpg" alt="" height="150px">
+    <img src="loki2.webp" alt="" height="150px">
+ </div>
+</body>
+</html>
