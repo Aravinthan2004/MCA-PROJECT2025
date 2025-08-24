@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #2f2d2d;
+            color: white;
+            width: 100%;
+            display: flex;
+            position: fixed;
+            height:50px ;
+                      
+        }
+        .navbar ul {
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+           
+        }
+        .navbar li {
+            margin-right: 20px;
+        }
+       
+    
+        .search {
+            margin-right:10px ;
+            border-radius:20px ;
+        }
+        .sign {
+            margin-right: 10px;
+            border-radius: 20px;
+            margin-top: 10px;
+        }
+         
+        .container {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 20px;
+        }
+        .marvel :hover {
+            transform: scale(1.2);
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+            border-radius: 20px; 
+            transition-duration: 0.5s;
+        }
+        .container .marvel {
+            
+            width: 180px;
+            height: 350px;
+        }
+        .container{
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 20px;
+        }
+        .searies :hover{
+             transform: scale(1.2);
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+            border-radius: 20px;
+            transition-duration: 0.5s;
+        }
+        .container .searies{
+            
+            width: 180px;
+            height: 350px;
+            
+        }
+        .container .img {
+            width: 100%;
+            height: 250px;
+            border-radius: 10px;
+            
+        }
+        .container .black {
+            display: flex;
+            justify-content: center;
+            height: 250px;
+            border: 10px;
+           
+        }
+        footer {
+            background-color: #000000;
+            color: #fff;
+            padding: 40px 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .footer-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: auto;
+       }    
+
+        .footer-section {
+            margin: 20px;
+            list-style-type: none;
+       }
+
+        .footer-section h3 {
+           border-bottom: 1px solid #786d6d;
+           padding-bottom: 10px;
+           list-style-type: none;
+           
+      }
+
+        .footer-section a {
+           color: #ccc;
+           text-decoration: none;
+       }
+
+        .footer-section a:hover {
+           color: #fff;
+       }
+
+        .footer-bottom {
+           text-align: center;
+           margin-top: 20px;
+           font-size: 14px;
+       }
+    </style>
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <ul>
+            <img src="marvel logo.png" alt="" width="200" height="100">
+            <br>
+            <br>
+            <li>HOME</li>
+            <li>GENRE</li>
+            <li>MOVIES</li>
+            <li>TV</li>
+            <li>SHOP</li>
+            <li>ABOUT</li>
+
+        </ul>
+        <div class="search">
+            <form style="margin-top: 10PX; margin-left: 600px ;" action="">
+                <input type="text" placeholder="Search">
+                
+        </div>
+        <div class="sign">
+            <form style="margin-top:10px ; margin-left 600px;;" action="">
+            <button><a style="color: #000000;" href="loged.html">sign</a></button>
+        </div>
+
+
+      
+    </nav>
+    <!--main content-->
+    <main>
+        <div class="home">
+       <img src="home.jpg" alt="" width="100%" height="500px">
+       </div>
+      <h1 style="font-size:xx-large;font-style: inherit;">Welcome to the Marvel Universe</h1>
+      <div class="container">
+        <div class="marvel">
+        
+            <img src="2.jpg" alt=""height="250px">
+            <h5 style="font-style: calc()">AVENGERS SECRETWARS</h5>
+            <p style="font-size: small;">Upcoming</p>
+            
+        </div>
+        <div class="marvel">
+            <img src="3.jpg" alt="" height="250px">
+            <h5 style="font-style: calc();">AVENGERS DOOMSDAY</h5>
+            <P style="font-size: small;">Upcoming</P>
+            
+        </div>
+        <div class="marvel">
+            <img src="4.jpg" alt="" height="250px">
+            <h5 style="font-style: calc();">SPIDER-MAN BARAND NEW DAY</h5>
+            <P style="font-size: small;">Upcoming</P>
+        </div>
+        <div class="marvel">
+            <img src="5.jpg" alt="" height="250px">
+            <h5 style="font-style: calc();">FANTASTIC FOUR</h5>
+            <P style="font-size: small;">25 Juliy 2025</P>
+
+        </div>
+        <div class="marvel">
+            <img src="6.jpg" alt="" height="250px">
+            <h5 style="font-style: calc();">NEW AVENGERS</h5>
+            <P style="font-size: small;">2 may 2025</P>
+        </div>
+        <div class="marvel">
+            <img src="7.jpg" alt="" height="250px">
+            <h5 style="font-style: calc();">CAPTAIN AMERICA BRAVE NEW WORLD</h5>
+            <P style="font-size: small;">14 feb 2025</P>
+        </div>
+        <div class="marvel">
+            <img src="8.jpg" alt="" height="250px">
+            <h5 style="font-style: calc();">DEADPOOL&WOLVERINE</h5>
+            <P style="font-size: small;">26 jul 2024</P>
+
+        </div>
+      </div>
+      <h1 style="font-size: xx-large;font-style: inherit;">Tv searies</h1>
+      <div class="container">
+        <div class="searies">
+            <img src="tv1.jpg" alt=""height="250px">
+            <h5 style="font-style: calc();color: black;">MARVEL ZOOMBIES</h5></a>
+            <P style="font-size: small;">2025</P>
+        </div>
+        <div class="searies">
+            <img src="tv3.jpg" alt="" height="250px">
+            <h5 style="font-style: calc();color: black;">DAREDEVILL BORN AGAIN</h5>
+            <P style="font-size: small;">2025</P>
+        </div>
+        <div class="searies">
+            <img src="tv4.jpg" alt=""height="250px">
+            <h5 style="font-style: calc();color: black;">FRENDLY NEIGHBORHOOD SPIDERMAN</h5>
+            <P style="font-size: small;">2025</P>
+        </div>
+        <div class="searies">
+            <img src="tv6.jpg" alt="" height="250px">
+            <h5 style="font-style: calc();">WHAT IF</h5>
+            <P style="font-size: small;">2023</P>
+        </div>
+        <div class="searies">
+            <img src="tv7.jpg" alt=""height="250px">
+            <h5 style="font-style: calc();">LOKI SEASON2</h5>
+            <P style="font-size: small;">2023</P>
+        </div>
+        <div class="searies">
+            <img src="tv8.jpg" alt=""height="250px">
+            <h5 style="font-style: calc();">I AM GROOT</h5>
+            <P style="font-size: small;">2023</P>
+
+        </div>
+        <div class="searies">
+            <img src="tv9.jpg" alt=""height="250px">
+        <h5 style="font-style: calc();">MOON KNIGHT</h5>
+            <P style="font-size: small;">2022</P>
+        </div>
+
+      </div>
+  <h1 style="font-size: xx-large;font-style: inherit;">Comics</h1>
+   <div class="container">
+        <div class="marvel">
+            <img src="comics1.jpg" alt=""height="250px">
+            <h5 style="font-style: calc();">AVENGERS</h5>
+            <p style="font-size: small;">2023</p>
+        </div>
+        <div class="marvel">
+            <img src="comics2.jpg" alt="" height="250px">
+            <h5 style="font-style: calc();">SPIDERMAN</h5>
+            <P style="font-size: small;">2023</P>
+        </div>
+        <div class="marvel">
+            <img src="comics3.jpg" alt="" height="250px">
+            <h5 style="font-style: calc();">CAPTION AMERICA</h5>
+            <P style="font-size: small;">2023</P>
+        </div>
+        <div class="marvel">
+            <img src="comics4.jpg" alt="" height="250px">
+            <h5 style="font-style: calc();">HULK</h5>
+            <P style="font-size: small;">2023</P>
+        </div>
+        <div class="marvel">
+            <img src="comics5.jpg" alt="" height="250px">
+            <h5 style="font-style: calc();">THOR</h5>
+            <P style="font-size: small;">2023</P>
+        </div>
+        <div class="marvel">
+            <img src="comics6.jpg" alt="" height="250px">
+            <h5 style="font-style: calc();">DR.DOOM</h5>
+            <P style="font-size: small;">2023</P>
+        </div>
+        <div class="marvel">
+            <img src="comics7.jpg" alt="" height="250px">
+            <h5 style="font-style: calc();">DEADPOOL</h5>
+            <P style="font-size: small;">2023</P>
+            </div>
+    
+   </div> 
+        <h1 style="font-size: xx-large;font-style: inherit;">Games</h1>
+        <div class="container">
+            <div class="marvel">
+                <img src="GAME1.jpg" alt=""height="250px">
+                <h5 style="font-style: calc();">WOLVARINE</h5>
+                <P style="font-size: small;">2025</P>
+            </div>
+            <div class="marvel">
+                <img src="GAME2.jpg" alt="" height="250px">
+                <h5 style="font-style: calc();">BLADE</h5>
+                <P style="font-size: small;">2023</P>
+             </div>
+            <div class="marvel">
+                <img src="GAME3.jpg" alt="" height="250px">
+                <h5 style="font-style: calc();">1946 RISE OF HYDRA</h5>
+                <P style="font-size: small;">2023</P>
+            </div>
+            <div class="marvel">  
+                <img src="GAME4.jpg" alt="" height="250px">
+                <h5 style="font-style: calc();">TOKON FIGHTING SOUL</h5>
+                <P style="font-size: small;">2020</P>
+            </div>
+            <div class="marvel">
+                <img src="GAME5.jpg" alt="" height="250px">
+                <h5 style="font-style: calc();">DEADPOOL VR</h5>
+                <P style="font-size: small;">2021</P>
+            </div>  
+            <div class="marvel">
+                <img src="GAME6.jpg" alt="" height="250px">
+                <h5 style="font-style: calc();">COSMIC INVENTION</h5>
+                <P style="font-size: small;">2018</P>
+            </div> 
+            <div class="marvel">
+                <img src="GAME7.jpg" alt="" height="250px">
+                <h5 style="font-style: calc();">MARVEL MYSTIC MAYHIM</h5>
+                <P style="font-size: small;">2020</P>
+            </div>       
+        </div>
+       </main>
+        <footer>
+            <p style="text-align: center; padding: 20px; background-color: #333; color: white;">&copy; 2023 Marvel Universe</p>
+        </footer>
+        <div style="background-color: black;" class="container">
+            <div class="black">
+                <img style="margin-right:1000px;" src="unlimited.jpg" alt="">
+            </div>
+            
+            
+        </div>   
+      <footer>
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>About Us</h3>
+      <p>Your company description goes here.</p>
+    </div>
+    
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul>
+        <li style list type="none"><a href="https://www.marvel.com/corporate/about">About</a></li>
+        <li style list type="none"><a href="https://www.marvel.com/redeem">Redem digital comics</a></li>
+        <li style list type="none"><a href="/contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Follow Us</h3>
+      <a href="https://www.facebook.com/Marvel/">Facebook</a><br>
+      <a href="https://twitter.com">X</a><br>
+      <a href="https://instagram.com">Instagram</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Your Company. All rights reserved.</p>
+  </div>
+</footer>
+  
+    
+</body>
+</html> 
