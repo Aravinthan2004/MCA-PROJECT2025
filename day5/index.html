@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prime Movies</title>
+</head>
+<header>
+    <body>
+        <style>
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #0f171e;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #131921;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
+}
+
+.logo span {
+  color: #00a8e1;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #00a8e1;
+}
+.hero {
+  background: url('/f1.jpg') no-repeat center center/cover;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  padding-left: 3rem;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+}
+
+.hero-text p {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.hero-text button {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #00a8e1;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 4px;
+}
+
+.movies-section {
+  padding: 2rem;
+}
+
+.movies-section h2 {
+  margin-bottom: 1rem;
+}
+
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+.movie-card {
+  background-color: #1f2a38;
+  padding: 0.5rem;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.movie-card h3 {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 168, 225, 0.4);
+}
+
+footer {
+  background-color: #131921;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+.mini {
+  display: flex;
+  bottom: 70px;
+  right: 0%;
+  position: absolute;
+}
+.mini :hover{
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+            
+}
+
+.mini img {
+   width: 130px;
+   height: 80px;
+}
+
+ #arrow1 {
+            height: 40px;
+            width: 50px;
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            left: 150px;
+        }
+        #arrow2 {
+            height: 40px;
+            width: 50px;
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            rotate: 180deg;  
+        }
+
+.image :hover {
+   transform: scale(1.1);
+   transition-duration: 0.5s;
+   mix-blend-mode: color;
+}
+
+
+        </style>
+    </body>
+</header>
+<body>
+  <header>
+</html>
+
+    <div class="logo">Prime <span>Movies</span></div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">TV Shows</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">My List</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+
+  <div class="hero">
+    <div class="hero-text">
+      <h1>Welcome to Prime Movies</h1>
+      <p>Stream the latest blockbusters and exclusive shows.</p>
+      <button onclick="alert('Start Watching feature coming soon!')">Start Watching</button>
+      </div>
+  </div>    
+      <!-- <script src="script.js"></script> -->
+      <div class="container">
+         <script src="script.js"></script>
+         <div class="arrow">
+                <img id="arrow1" onclick="changeimg() " id="arrow1" src="/chevron-left.png" alt="loading">
+                <img id="arrow2" onclick="changeleft()" id="arrow2"  src="/chevron-left.png" alt="loading">
+          </div>     
+          <div class="mini">
+                <img  onclick="click1(0)" src="/f1.jpg" alt="loading">
+                <img onclick="click1(1)" src="/mission.jpg" alt="loading">
+                <img onclick="click1(2)" src="/jurrasic.jpg" alt="loading">
+          </div>
+      </div>
+  
+ 
+
+  <div class="movies-section">
+    <h2>Popular Movies</h2>
+    <div class="movies-grid">
+      <div class="movie-card" onclick="previewMovie('Movie 1')">
+        <img src="movie1.webp" alt="Movie 1" />
+        <h3>Thalaivan Thalaivi</h3>
+      </div>
+      <div class="movie-card" onclick="previewMovie('Movie 2')">
+        <img src="tom-cruise-mission-3840x2160-22283.jpg" alt="Movie 2" />
+        <h3>Mission Imposible </h3>
+      </div>
+      <div class="movie-card" onclick="previewMovie('Movie 3')">
+        <img src="final-destination-3840x2160-22398.png" alt="Movie 3" />
+        <h3>Final Destination</h3>
+      </div>
+      <div class="movie-card" onclick="previewMovie('Movie 4')">
+        <img src="ballerina-neon-pink-3840x2160-23623.jpg" alt="Movie 4" />
+        <h3>Bellerina From Jhonwick world</h3>
+      </div>
+    </div>
+  </div>
+  <div class="movies-section">
+    <h2>Top Shows</h2>
+    <div class="movies-grid">
+      <div class="movie-card" onclick="previewMovie('Movie 1')">
+        <img src="fallout-2025-series-3840x2160-23661.jpg" alt="Movie 1" />
+        <h3>Fallout</h3>
+      </div>
+      <div class="movie-card" onclick="previewMovie('Movie 2')">
+        <img src="kung-fu-panda-4-3840x2160-15545.jpg" alt="Movie 2" />
+        <h3>Kungfu Panda</h3>
+      </div>
+      <div class="movie-card" onclick="previewMovie('Movie 3')">
+        <img src="joel-the-last-of-us-3840x2160-21484.jpg" alt="Movie 3" />
+        <h3>Last of us Season 2</h3>
+      </div>
+      <div class="movie-card" onclick="previewMovie('Movie 4')">
+        <img src="peacemaker-season-2-3840x2160-23543.jpg" alt="Movie 4" />
+        <h3>Peacemaker season 2</h3>
+      </div>
+    </div>
+
+  <footer>
+    <p>&copy; 2025 Prime Movies. All rights reserved.</p>
+  </footer>
+
+  <script src="/script.js"></script>
+</body>
+</html>
