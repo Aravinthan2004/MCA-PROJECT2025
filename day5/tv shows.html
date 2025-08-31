@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TV Searies</title>
+</head>
+<header>
+    <body>
+        <style>
+
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #0f171e;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #131921;
+  padding: 1rem 2rem;
+  position: fixed;
+  width: 100%;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
+}
+
+.logo span {
+  color: #00a8e1;
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #00a8e1;
+}
+.hero {
+  background: url('/h1.jpg') no-repeat center center/cover;
+  height: 750px;
+  display: flex;
+  align-items: center;
+  padding-left: 3rem;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+}
+
+.hero-text p {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+.button1 button{
+  width: 100px;
+  height: 30px;
+  background-color: #d6dddf;
+  border: none;
+  border-radius: 100px;
+  text-decoration: none;
+  margin-right: 50px;
+}
+.button1 :hover{
+  
+}
+
+.hero-text button {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background-image: linear-gradient(to right,#0a6a7a,#333739);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 4px;
+}
+
+.movies-section {
+  padding: 2rem;
+}
+
+.movies-section h2 {
+  margin-bottom: 1rem;
+}
+
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+.movie-card {
+  background-color: #1f2a38;
+  padding: 0.5rem;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.movie-card h3 {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 168, 225, 0.4);
+}
+
+footer {
+  background-color: #131921;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+.mini {
+  display: flex;
+  bottom: 70px;
+  right: 0%;
+  position: absolute;
+}
+.mini :hover{
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+            
+}
+
+.mini img {
+   width: 130px;
+   height: 70px;
+}
+
+
+.image :hover {
+   transform: scale(1.1);
+   transition-duration: 0.5s;
+   mix-blend-mode: color;
+}
+ footer {
+            background-color: #000000;
+            color: #fff;
+            padding: 40px 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .footer-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: auto;
+       }    
+
+        .footer-section {
+            margin: 20px;
+            list-style-type: none;
+       }
+
+        .footer-section h3 {
+           border-bottom: 1px solid #786d6d;
+           padding-bottom: 10px;
+           list-style-type: none;
+           
+      }
+
+        .footer-section a {
+           color: #ccc;
+           text-decoration: none;
+       }
+
+        .footer-section a:hover {
+           color: #fff;
+       }
+
+        .footer-bottom {
+           text-align: center;
+           margin-top: 20px;
+           font-size: 14px;
+       }
+
+
+        </style>
+    </body>
+</header>
+<body>
+  <header>
+</html>
+
+    <div class="logo">Prime <span>Movies</span></div>
+    <nav>
+      <ul style="margin-left: 750px;">
+        <li><a href="index.html" target="_blank">Home</a></li>
+        <li><a href="tv shows.html">TV Shows</a></li>
+        <li><a href="movies.html">Movies</a></li>
+        <li><a href="#">My List</a></li>
+      </ul>
+    </nav>
+    <div class="button1">
+      <button><a style=" text-decoration: none;color: rgb(33, 31, 31); font-family: sans-serif; " href="sign.html" target="_blank" >Sign</a></button>
+    </div>
+  </header>
+  
+
+  <div class="hero">
+    <div class="hero-text">
+      <h1>Welcome to Prime TV Searies</h1>
+      <p>Stream the latest blockbusters and exclusive shows.</p>
+      <button onclick="alert('Start Watching feature coming soon!')">Start Watching</button>
+      </div>
+  </div>    
+      <!-- <script src="script.js"></script> -->
+      <div class="container">
+         <script src="script.js"></script>  
+          <div class="mini">
+                <img  onclick="click1(0)" src="/h1.jpg" alt="loading">
+                <img onclick="click1(1)" src="/h2.jpg" alt="loading">
+                <img onclick="click1(2)" src="/wp6572422-peaky-blinders-4k-desktop-wallpapers.jpg" alt="loading">
+          </div>
+      </div>
+  
+ 
+
+  <div class="movies-section">
+    <h2>TOP SHOWS</h2>
+    <div class="movies-grid">
+      <div class="movie-card" onclick="previewMovie('Movie 1')">
+        <img src="invincible-season-3-3840x2160-21462.jpg" alt="Movie 1" />
+        <h3>Invencible</h3>
+      </div>
+      <div class="movie-card" onclick="previewMovie('Movie 2')">
+        <img src="fallout-2025-series-3840x2160-23661.jpg" alt="Movie 2" />
+        <h3>Fallout</h3>
+      </div>
+      <div class="movie-card" onclick="previewMovie('Movie 3')">
+        <img src="h2.jpg" alt="Movie 3" />
+        <h3>The Boys</h3>
+      </div>
+      <div class="movie-card" onclick="previewMovie('Movie 4')">
+        <img src="joel-the-last-of-us-3840x2160-21484.jpg" alt="Movie 4" />
+        <h3 style="font-style: calc();">The Last Of Us</h3>
+      </div>
+       <div class="movie-card" onclick="previewMovie('Movie 4')">
+        <img src="racher.png" alt="Movie 4" />
+        <h3>Racher</h3>
+      </div>
+    </div>
+  </div>
+  
+  <div class="movies-section">
+    <h2>KIDS</h2>
+    <div class="movies-grid">
+      <div class="movie-card" onclick="previewMovie('Movie 1')">
+        <img src="transform.png" alt="Movie 1" />
+        <h3>Transformes Prime</h3>
+      </div>
+      <div class="movie-card" onclick="previewMovie('Movie 2')">
+        <img src="sakthiman.webp" alt="Movie 2" />
+        <h3>Sakthiman</h3>
+      </div>
+      <div class="movie-card" onclick="previewMovie('Movie 3')">
+        <img src="been2.jpg" alt="Movie 3" />
+        <h3>Mr.Been</h3>
+      </div>
+      <div class="movie-card" onclick="previewMovie('Movie 4')">
+        <img src="power.jpg" alt="Movie 4" />
+        <h3>Power Rangers</h3>
+      </div>
+       <div class="movie-card" onclick="previewMovie('Movie 4')">
+        <img src="oggy.jpg" alt="Movie 4" />
+        <h3>Oggy&Cockroaches</h3>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <h2>MGM+</h2>
+    <div class="movies-grid">
+      <div class="movie-card" onclick="previewMovie('Movie 1')">
+        <img src="mgm1.jpg" alt="Movie 1" />
+        <h3>From</h3>
+      </div>
+      <div class="movie-card" onclick="previewMovie('Movie 2')">
+        <img src="mgm2.jpg" alt="Movie 2" />
+        <h3>Earth Abides</h3>
+      </div>
+      <div class="movie-card" onclick="previewMovie('Movie 3')">
+        <img src="mgm3.jpg" alt="Movie 3" />
+        <h3>The Beekeeper</h3>
+      </div>
+      <div class="movie-card" onclick="previewMovie('Movie 4')">
+        <img src="mgm4.jpg" alt="Movie 4" />
+        <h3>Rouge Heros</h3>
+      </div>
+       <div class="movie-card" onclick="previewMovie('Movie 4')">
+        <img src="mgm5.jpg" alt="Movie 4" />
+        <h3>Pyscho</h3>
+      </div>
+    </div> 
+    <br>
+    <br>
+    <br>
+    <h2>INDIAN SHOWS</h2>
+    <div class="movies-grid">
+      <div class="movie-card" onclick="previewMovie('Movie 1')">
+        <img src="i1.png" alt="Movie 1" />
+        <h3>The Family Man</h3>
+      </div>
+      <div class="movie-card" onclick="previewMovie('Movie 2')">
+        <img src="i2.jpg" alt="Movie 2" />
+        <h3>The Village</h3>
+      </div>
+      <div class="movie-card" onclick="previewMovie('Movie 3')">
+        <img src="i3.jpg" alt="Movie 3" />
+        <h3>Farzi</h3>
+      </div>
+      <div class="movie-card" onclick="previewMovie('Movie 4')">
+        <img src="i4.webp" alt="Movie 4" />
+        <h3>Suzal</h3>
+      </div>
+       <div class="movie-card" onclick="previewMovie('Movie 4')">
+        <img src="i5.jpg" alt="Movie 4" />
+        <h3>Pechi</h3>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br> 
+    <h2>ANIME</h2>
+    <div class="movies-grid">
+      <div class="movie-card" onclick="previewMovie('Movie 1')">
+        <img src="a1.jpg" alt="Movie 1" />
+        <h3>Master Swardsmen</h3>
+      </div>
+      <div class="movie-card" onclick="previewMovie('Movie 2')">
+        <img src="a2.jpg" alt="Movie 2" />
+        <h3>The Vinland Saga</h3>
+      </div>
+      <div class="movie-card" onclick="previewMovie('Movie 3')">
+        <img src="a3.jpg" alt="Movie 3" />
+        <h3>Death Note</h3>
+      </div>
+      <div class="movie-card" onclick="previewMovie('Movie 4')">
+        <img src="a6.jpg" alt="Movie 4" />
+        <h3>Naruto Shipuden</h3>
+      </div>
+       <div class="movie-card" onclick="previewMovie('Movie 4')">
+        <img src="a7.jpg" alt="Movie 4" />
+        <h3>Demon Slayer</h3>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <h2>DC TV SHOWS</h2>
+    <div class="movies-grid">
+      <div class="movie-card" onclick="previewMovie('Movie 1')">
+        <img src="dc1.jpg" alt="Movie 1" />
+        <h3>Arrow</h3>
+      </div>
+      <div class="movie-card" onclick="previewMovie('Movie 2')">
+        <img src="dc2.webp" alt="Movie 2" />
+        <h3>The Flash</h3>
+      </div>
+      <div class="movie-card" onclick="previewMovie('Movie 3')">
+        <img src="dc3.jpg" alt="Movie 3" />
+        <h3>Super Girl</h3>
+      </div>
+      <div class="movie-card" onclick="previewMovie('Movie 4')">
+        <img src="dc5.webp" alt="Movie 4" />
+        <h3>The Penguien</h3>
+      </div>
+       <div class="movie-card" onclick="previewMovie('Movie 4')">
+        <img src="dc6.jpg" alt="Movie 4" />
+        <h3>The Watchman</h3>
+      </div>
+    </div>
+    
+<br>
+  <footer>
+    <p>&copy; 2025 Prime Movies. All rights reserved.</p>
+  </footer>
+   <footer>
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>About Us</h3>
+      <p>Your company description goes here.</p>
+    </div>
+    
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul>
+        <li style list type="none"><a href="https://www.marvel.com/corporate/about">About</a></li>
+        <li style list type="none"><a href="https://www.marvel.com/redeem">Redem digital comics</a></li>
+        <li style list type="none"><a href="/contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Follow Us</h3>
+      <a href="https://www.facebook.com/Marvel/">Facebook</a><br>
+      <a href="https://twitter.com">X</a><br>
+      <a href="https://instagram.com">Instagram</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Your Company. All rights reserved.</p>
+  </div>
+</footer>
+
+  <script src="/script.js"></script>
+</body>
+</html>
