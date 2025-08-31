@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sign</title>
+</head>
+
+<body>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    body{
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(to right,#738073,#22242c);
+      margin-right: auto 3px;
+    }
+    form {
+      width: 35rem;
+      height: 28rem;
+      display: flex;
+      flex-direction: column;
+      background: rgba(225,335,225,0.06);
+      box-shadow: 0 08px 32px 0 rgba(21, 11, 11, 0.37);
+      border-radius: 30px;
+    }
+    h1 {
+      font-size: 50px;
+      text-align: center;
+      color: azure;
+      letter-spacing: 3px;
+      margin-bottom: 5%;
+    }
+    label {
+      font-size: 20px;
+      color: beige;
+      margin-left: 10%;
+      opacity: .8;
+      text-shadow: 2px 2px 4px black;
+    }
+    input {
+      width: 80%;
+      margin: 5% auto;
+      margin-bottom: 8%;
+      border: none;
+      outline: none;
+      background-color: transparent;
+      color: aliceblue;
+      border-bottom: 1px solid rgba(21, 11, 11, 0.37);
+      opacity: .8;
+    }
+    button {
+      width: 50%;
+      margin: 3% auto;
+      color: white;
+      font-size: 15px;
+      opacity: .7;
+      background: rgba(21, 11, 11, 0.37);
+      padding: 10px 30px;
+      border-radius: 15px;
+    }
+    a {
+      text-align: center;
+    }
+    
+  </style>
+    
+    <form>
+      <h1>LOGIN</h1>
+      <label>username</label>
+      <input type="text">
+      <label>password</label>
+      <input type="password">
+      <button>Login</button>
+      <a href="">Forget Password</a>
+    </form>
+</body>
+</html>
